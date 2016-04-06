@@ -12,7 +12,7 @@ public class Start {
 
     public static void main(String [] args) throws IOException {
         
-        PrintWriter writer = new PrintWriter("failedReport.html", "UTF-8");
+        PrintWriter writer = new PrintWriter(System.getProperty("user.dir")+"/failedReport.html", "UTF-8");
         writer.println("<html><head><title></title></head><body><table>");
         String reportPathPattern = "http://jenkins.marks.kyiv.epam.com/view/TAF/view/TAF_POS/job/%s/thucydides";
         
