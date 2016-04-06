@@ -1,0 +1,7 @@
+target
+failedReport.html
+.settings
+.project
+.classpath
+credentials
+**/skype4j/**
