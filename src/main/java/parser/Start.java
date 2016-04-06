@@ -17,7 +17,7 @@ public class Start {
         String reportPathPattern = "http://jenkins.marks.kyiv.epam.com/view/TAF/view/TAF_POS/job/%s/thucydides";
         
         //for manual run change to "<jobName>/<build number>"
-        String jobName = "08.2.2_run_test_suite";
+        String jobName = "08.2.2_run_test_suite/377";
         if (0 != args.length) {
             jobName = args[0];
         }
